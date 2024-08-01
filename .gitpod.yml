@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: dotnet --version
+    command: dotnet new classlib -n QuickLookFontPreview
+
+vscode:
+  extensions:
+    - ms-dotnettools.csharp
